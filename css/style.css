@@ -171,6 +171,7 @@ header {
 }
 
 .bottom ul li {
+  display: flex;
   float: left;
 }
 
@@ -181,7 +182,7 @@ header {
 }
 
 .bottom ul li img {
-  width: 364px;
+  align-content: flex-end;
   height: 200px;
   left: 50%;
   z-index: 1;
