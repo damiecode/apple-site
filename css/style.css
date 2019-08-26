@@ -175,12 +175,16 @@ header {
   z-index: -1;
 }
 
+.bottom {
+  width: 100%; 
+}
+
 .bottom ul li {
   float: left;
 }
 
 .bottom ul li img {
-  width: 337.7px;
+  width: 335px;
   height: 200px;
 }
 
