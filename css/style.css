@@ -172,10 +172,10 @@ header {
 
 .bottom {
   width: 100%;
+  display: inline-block;
 }
 
 .bottom ul li {
-  display: flex;
   float: left;
 }
 
@@ -186,11 +186,10 @@ header {
 }
 
 .bottom ul li img {
-  align-content: flex-end;
-  height: 200px;
-  left: 50%;
+  height: 185.5px;
   z-index: 1;
-  margin-left: -27px;
+  max-width: 613%;
+  max-height: 613%;
 }
 
 #footer-links img {
